@@ -52,10 +52,10 @@ Para fazer o link de um arquivo .css em um documento .html, devemos inserir a ta
 ```
     
 Dentro do arquivo .css, a anatomia é:
-
+```
 seletor {
     propriedade: valor;
 }
-
+```
 
 
