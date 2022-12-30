@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Pesquisa de Satisfação</title>
+</head>
+
+<div>
+    <header>
+        <img src="./img/header-logo.png" id="logo">
+    </header>
+
+    <h1 id="titulo">Pesquisa de Satisfação</h1>
+    <p id="subtitulo">Responda abaixo as perguntas:</p>
+    <br>
+</div>
+
+<form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+    </fieldset>
+
+    <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div class="campo">
+        <label><strong>Qual seu grau de satisfação com nossa empresa?</strong></label>
+        <label>
+            <input type="radio" name="pergunta1">Muito satisfeito</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta1">Até certo ponto satisfeito</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta1">Pouco insatisfeito</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta1">Muito insatisfeito</label>
+        </label>
+    </div>
+
+    <div class="campo">
+        <label><strong>Como nossos produtos ou serviços atendem às suas necessidades?</strong></label>
+        <label>
+            <input type="radio" name="pergunta2">Extremamente bem</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta2">Muito bem</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta2">Não muito bem</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta2">Nada bem</label>
+        </label>
+    </div>
+
+    <div class="campo">
+        <label><strong>De modo geral, como você avalia a qualidade do atendimento ao <br>cliente realizado por nossa
+                empresa?</strong></label>
+        <label>
+            <input type="radio" name="pergunta2">Muito bom</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta2">Apenas um pouco bom</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta2">Um pouco ruim</label>
+        </label>
+        <label>
+            <input type="radio" name="pergunta2">Muito ruim</label>
+        </label>
+    </div>
+
+    <div class="campo">
+        <br>
+        <label><strong>Existe uma maneira de melhorar sua experiência quando <br> você vem ao nosso escritório ou
+                loja?</strong></label>
+        <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+    </div>
+</form>
+
+
+<input class="botao" type="submit" value="Confimar" onclick="alert('Enviado com Sucesso!!')">
+
+</html>
