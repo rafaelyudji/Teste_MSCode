@@ -2,10 +2,12 @@
 
 Para este projeto foi utilizado HTML e CSS. As estruturas das pastas sendo:
 
+```
 index.html
 styles.css
 /img
     header-logo.png
+```
 
 uma pasta com os arquivos index.html, styles.css para inserção de nossos estilos .css na raiz e outra pasta /img, para inserção de nossas imagens.
 
