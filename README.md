@@ -1,5 +1,4 @@
-# Teste_MSCode
-Projeto referente ao processo seletivo do MS Code 2022
+Projeto referente ao processo seletivo do MS Code
 
 Para este projeto foi utilizado HTML e CSS. As estruturas das pastas sendo:
 
