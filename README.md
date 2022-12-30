@@ -35,7 +35,9 @@ Internamente, as tags html possuem uma anatomia básica também:
 
 Comentários em HTML:
 
+```
 <!-- Isso é um comentário. Comentários em qualquer linguagem são pedaços de código que são ignorados na renderização (na leitura do computador), mas são úteis para entedimento humano -->
+```
 
 ## CSS
 
